@@ -1,0 +1,701 @@
+
+.inter-sans-serif {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+  }
+@import url('https://fonts.cdnfonts.com/css/miama');
+  /* display siser */
+  *{
+      margin: 0px;
+      padding: 0px;
+    
+  }
+   body{
+      background: rgb(0, 0, 0);
+   }
+  
+  
+  /* display flex */
+  .display-fles{
+      display:flex;
+  }
+  /* Oreags color */
+  .oreags{
+      background: rgb(230, 83, 60);
+  }
+  /* btn color */
+  .text-primary{
+      background: rgb(230, 83, 60);
+      border-radius:20px;
+      padding:3px 15px ;
+  }
+ 
+  /* header section */
+.nav-container{
+      justify-content:space-between;
+      align-items: center;
+      margin: 0 100px;
+      margin-top: 60px;
+    }
+  .navber{
+     
+      background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    }   
+  
+  /* p */
+  .banner-p {
+  color: rgb(230, 83, 60);
+  font-size:2.10rem;
+  font-weight:800px;
+  
+  }
+  .nav-grectin{
+      border-radius:10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding:5px 0;
+  }
+  .nav-tital{
+      list-style:none;
+      margin-right:30px;
+      text-align: left;
+  }
+  .nav-link{
+      text-decoration:none;
+      color:white;
+      font-size:1rem;
+      font-weight: 400px;
+  }
+  .ham-burger{
+      color: white;
+      display:none;
+  }
+  
+   /* header-1 team area end */
+  
+  /* header-2 Team area start*/
+.container{
+            display:flex;
+            gap:190px;
+            margin: 40px 100px;
+        }
+.banner-tital{
+      font-size:4.50rem;
+      font-weight:900px;
+      line-height:95px;
+      color:white;
+      margin-bottom:30px;
+    }
+ #hape {
+     font-size:5rem;
+     font-weight:200px;
+     font-family:"miama", sans-serif;
+  }
+.banner-description{
+      font-size:0.85rem;
+      font-weight:400px;
+      color:rgba(255, 255, 255, 0.5);
+      letter-spacing:0.5px;
+      line-height:24px;
+      margin-bottom: 35px;
+    }
+.btn-primary{
+      font-size:1.20rem;
+      font-weight: 600;
+      padding: 15px 30px;
+      border-radius:30px;
+      border:none;
+      color:white;
+      margin-right:34px;
+  }
+.btn-dark{
+     background-color:rgb(0, 0, 0);
+     border:1px solid white;
+     color:white;
+     font-size:1.20rem;
+     font-weight: 600;
+     padding: 15px 30px;
+     border-radius:30px;
+    }
+    /*  */
+.team-imge{
+      width:345px;
+      height:575px;
+      z-index: -80;
+    }
+.box{
+      position: relative;
+    }
+.box1{
+      color: azure;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius:10px;
+      width:140px;
+      padding: 20px 25px;
+      position:absolute;
+      left:230px;
+      top:120px;
+    }
+.p-naber{
+      font-size:2.50rem;
+      font-weight:1000px;
+      margin:0px;
+    }
+  
+.workout{
+      font-size:0.80rem;
+      font-weight: 100px;
+      margin:0px;
+      color:rgba(255, 255, 255, 0.65);
+}
+  
+  .box2{
+      display:flex;
+      align-items: center;
+      gap:5px;
+      color:white;
+      background-color:rgba(48, 48, 48, 0.54);
+      border-radius:10px;
+      width:160px;
+      padding:15px 20px;
+      position: absolute;
+      bottom:75px;
+      left:-95px;
+     
+  }
+  .ball{
+      width:40px;
+      height: 40px;
+      background-color:red;
+      border-radius:50%;
+  }  
+  .p-namber{
+      font-size:2rem;
+      font-weight:800px;
+      margin:0px;
+      padding:10px;
+      line-height:3px;
+  
+  }
+  .p-content{
+      font-size:1rem;
+      font-weight:100;
+      line-height:3px;
+      padding-left:10px;
+      color:rgba(255, 255, 255, 0.65);
+      
+  }
+  /* header-2 Team area end*/
+  
+  /* main area start */
+  .nexcap{
+      background: rgb(0, 0, 0);
+      
+  }
+  
+.content-habis{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      margin:50px 100px;
+    }
+.change{
+      font-size:3rem;
+      font-weight:900;
+      color:rgb(255, 255, 255);
+      text-align: center;
+      margin-bottom:0px;
+  }
+.p-shoulde{
+     font-size: 0.90rem;
+      font-weight: 400px;
+      color:rgba(255, 255, 255, 0.5);
+      text-align:center;
+      margin-top: 15px;
+      margin-bottom:45px;
+  }
+  
+.redis-img{
+      border-radius: 50%;
+      margin-top: 20px;
+  }
+  
+.time{
+      font-size:1rem;
+      font-weight: 600px;
+      color:rgb(255, 255, 255);
+      text-align: center;
+      margin-bottom:0px;
+  }
+  .p-time{
+      font-size:.85rem;
+      font-weight: 400px;
+      text-align: center;
+      color:rgba(255, 255, 255, 0.5);
+      margin-top:7px;
+  }
+  /* Run area seart */
+  
+  
+  .run-container{
+      display: flex;
+      justify-content: space-between;
+      width:1020px;
+      height:330px;
+      padding: 10px 35px;
+      border-radius:15px;
+      margin: 80px auto;
+      background-color:rgb(34, 34, 34);
+  
+  }
+  .extra{
+      font-size: 3rem;
+      font-weight: 900;
+      color:rgb(255, 255, 255);
+      margin-top:20px;
+      margin-bottom: 15px;
+  
+  }
+  .easily{
+      font-size:0.85rem;
+      font-weight:400px;
+      color:rgba(255, 255, 255, 0.5);
+      line-height:25px;
+      margin-bottom:20px;
+  }
+  .btn-info{
+      font-size: 1rem;
+      font-weight: 400;
+      padding:15px 60px;
+      border-radius: 25px;
+      border: none;
+      color:rgb(255, 255, 255);
+  }
+  
+  .runimg{
+      width:366px;
+      height:300px;
+      border-radius:10px;
+  }
+  /* Run area and */
+  
+  /* BMI Calculator stead */
+  .head-tital{
+      font-size:3rem;
+      font-weight:900px;
+      margin-left:190px;
+      margin-top:80px;
+      margin-bottom:10px;
+      color:rgb(255, 255, 255);
+  }
+  
+  .p-description{
+      font-size:0.80rem;
+      font-weight:400px;
+      margin-left:190px;
+      margin-bottom:80px;
+      color:rgba(255, 255, 255, 0.5) ;
+  }
+  /* BMI Calculator end */
+  
+  /* tabl area start*/
+.tabl-fastion{
+      display: flex;
+      justify-content: space-between;
+      background-color:rgb(34, 34, 34);
+      margin-top: 50px;
+      padding:40px 100px;
+      color:rgb(255, 255, 255);
+    
+     
+  }
+  .head-bmi{
+      font-size:1.50rem;
+      font-weight:900px;
+      color:rgb(255, 255, 255);
+      margin-bottom:40px;
+  }
+  .table-hade{
+    width: ;
+  }
+  
+  .table-hade tr th{
+      font-size:1rem;
+      font-weight:500px;
+      color:rgb(255, 255, 255);
+      padding: 15px 20px;
+      text-align: left;
+  }
+  .table-hade tr td{
+      font-size: .80rem;
+      font-weight:400px;
+      color: rgba(255, 255, 255, 0.5);
+      padding:15px 20px;
+      text-align: left;
+    }
+  /* Form areia start*/
+  .bmi-hader{
+    font-size:1.50rem;
+    font-weight:900px;
+    color:rgb(255, 255, 255);
+    margin-bottom:10px;
+  }
+  .p-should{
+      font-size:0.80rem;
+      font-weight:400px;
+      color: rgba(255, 255, 255, 0.5);
+      text-align: left;
+      margin-top:10px;
+      margin-bottom:15px;
+
+  }
+  .form-factor input[type="text"], select {
+      background-color:rgba(255, 255, 255, 0.1);
+      border-radius:8px;
+      width:200px;
+      color:rgba(255, 255, 255, 0.6);
+      padding:15px 10px;
+      border: none;
+      margin-right:10px ;
+    }
+.selectiv, option{
+      background-color:rgba(255, 255, 255, 0.1);
+      border-radius:8px;
+      width:435px;
+      color:rgba(255, 255, 255, 0.6);
+      padding:18px 15px;
+      border: none;
+      margin-bottom:20px; 
+  }
+  /* Form areia end*/
+  
+/* oue team */
+  .run-area{
+   
+  }
+  .h-tital{
+      font-size:3rem;
+      font-weight:900px;
+      text-align: center;
+      color:rgb(255, 255, 255);
+      margin-top:80px;
+      margin-bottom:15px;
+  }
+  .img-description{
+      font-size:0.85rem;
+      font-weight: 400px;
+      text-align:center;
+      color:rgba(255, 255, 255, 0.5);
+      margin-bottom:50px;
+  }
+  .our-team {
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      margin:20px 140px;
+      padding:15px 15px;
+      gap:15px;
+      border-radius: 15px;
+      background:rgba(255, 255, 255, 0.1);
+     
+     
+  }
+  .our-greetion{
+      position:relative;
+  }
+  .our-team img{
+      width:100%;
+      height:270px;
+      border-radius:10px;
+}
+.our-meet{
+      position:absolute;
+      bottom: 15%;
+      left:10%;
+      font-size:1rem;
+      font-weight:900px;
+      color:rgb(255, 255, 255);
+}
+.trainer{
+      position:absolute;
+      bottom:12%;
+      left:10%;
+      font-size:0.80rem;
+      font-weight:300px;
+      color:rgba(255, 255, 255, 0.5);
+      line-height: 3px;
+     
+  }
+  
+  /* footer areia start */
+   footer{
+     
+      background-color:rgba(255, 255, 255, 0.1);
+      margin-bottom: 35px;
+   }   
+  
+  .footer-contin{
+      display:flex;
+      gap:90px;
+     padding: 60px 130px;
+     margin-top:80px;
+    
+     
+  }
+  .footer-head{
+      font-size:4.40rem;
+      font-weight:800px;
+      color:rgb(230, 83, 60);
+      margin-bottom:5px;
+  }
+  .banner-footer-description{
+      font-size:0.85rem;
+      font-weight:400px;
+      color:rgba(255, 255, 255, 0.5);
+      line-height:20px;
+  
+  }
+  .footer-tital{
+      font-size:2rem;
+      font-weight:900px;
+      color:rgb(255, 255, 255);
+     
+  }
+  .footre-pase{
+      font-size: 1.40rem;
+      font-weight:400px;
+      color:rgba(255, 255, 255, 0.5);
+      
+  }
+  
+  .horegental{
+      margin-left:130px;
+      margin-right:130px;
+      margin-bottom:30px;
+      color:rgba(255, 255, 255, 0.5);
+  }
+  
+  .banner-content-time{
+      text-align:center ;
+      font-size:1.20rem;
+      font-weight:400px;
+      color:rgba(255, 255, 255, 0.5);
+      padding-bottom: 80px;
+}
+/* footer area end */
+@media screen and (max-width:576px) {
+    .nav-container{
+        width: 100%;
+        margin:0px;
+            
+    }
+    .nav-grectin{
+        display:none;
+
+    }
+    .banner-p{
+      margin-top:30px ;
+      margin-left: 30px;
+      margin-bottom: 40px;
+    }
+    .ham-burger{
+        display:block;
+        color: white;
+        margin-top: 30px;
+        margin-right:20px;
+        margin-bottom: 40px;
+       
+    }
+    @media screen and (max-width:576px) {
+        .container{
+            flex-direction:column;
+            width:100%;
+            margin: 0px;
+            margin-top: 0px;
+          
+        }
+        .banner-tital{
+            margin-left: 30px;
+            font-size: 4rem;
+            font-weight: 800px;
+        }
+        .banner-description{
+            margin-left: 30px;
+        }
+        .btn-primary{
+            margin-left:30px;
+            margin-bottom: 0px;
+        }
+        .box{
+          position: relative;
+          margin-left: 30px;
+          margin-top: 0px;
+
+        }
+        .box2{
+            position: absolute;
+            left: 20px;
+        }
+        .p-content{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+      }
+
+  @media screen and (max-width:576px) {
+      .run-container{
+          flex-direction:column;
+          width:60%;
+          height:70%;
+          padding: 0px;
+          margin:30% 40%;
+         }
+      .extra{
+          margin-left:50px;
+  
+      }
+      .easily{
+          margin-left: 50px;
+      }
+      .btn-info{
+          padding:24px 140px;
+          border-radius: 40px;
+         font-size:1.50rem;
+         font-weight:400px;
+         margin:15px 50px;
+        
+  
+      }
+      .runimg{
+          padding:30px 50px;
+          border-radius:15px;
+      }
+  
+  }
+  /* Bmi cl */
+  @media screen and (max-width:576px) {
+      .head-tital{
+          margin-left:30px;
+      }
+      .p-description{
+          margin-left:30px;
+          font-size:1rem;
+          font-weight:500px;
+          letter-spacing:0.4px;
+          line-height: 24px;
+      }    
+  }
+  /* table */
+  @media screen and (max-width:576px) {
+  
+      .tabl-fastion{
+          flex-direction:column;
+          width:90%;
+          height:90%;
+          margin: 0px;
+          padding:0px;
+       
+        
+      }
+      .head-bmi{
+          margin-left: 30px;
+          margin-top:20px;
+          margin-bottom: 20px;
+      }
+      .table-hade{
+          margin-left: 30px;
+          margin-top:20px;
+          margin-bottom: 20px;
+         
+      }
+      .table-hade th td{
+          padding:15px 20px;
+  
+      }
+      .bmi-hader{
+        margin-left: 30px;
+      }
+      .p-should{
+          margin-left: 30px;
+          margin-top: 20px;
+          margin-bottom: 30px;
+      }
+      .form-factor{
+          margin-left:30px;
+      }
+      /* .btn-calcuate{
+          margin-left:30px;
+          padding:15px 50px;
+      } */
+  
+  }
+  
+  /* our-team */
+  @media screen and (max-width:576px) {
+      .img-description{
+          line-height:24px;
+          letter-spacing: 0.3px;
+          text-align: center;
+         
+      }
+      
+  }
+  @media screen and (max-width:576px) {
+      .our-team{
+          grid-template-columns: repeat(1, 1fr);
+        padding: 0px;
+        padding-top:25px;
+        padding-bottom:25px;
+        margin-bottom:40px;
+      }
+      .our-team img{
+          width:80%;
+          margin-left:40px;
+          margin-right:40px; 
+        
+      }
+      .our-greetion{
+         
+      }
+  }
+  
+  @media screen and (max-width:576px) {
+      .footer-contin{
+          flex-direction:column;
+          width:100%;
+          height:100%;
+        padding: 0px;
+      }
+      .footer-head{
+          margin-left: 30px;
+          margin-top:50px;
+      }
+      .banner-footer-description{
+          margin-left:30px;
+          margin-top: 30px;
+          line-height:28px;
+          letter-spacing: 0.5px;
+      }
+      .footer-tital{
+        padding-left: 30px;
+        margin-bottom:30px;
+        margin-top: 0px;
+      }
+      .footre-pase{
+        margin-left:30px;
+          line-height: 50px;
+          font-size:2rem;
+          font-weight:300px;
+      }
+      .horegental{
+          margin-left:30px;
+      }
+      .banner-content-time{
+        text-align: left;
+        margin-left: 30px;
+        padding-bottom:80px;
+      }
+  }
+      
+      
